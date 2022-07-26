@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source ~/.zshrc &>/dev/null
+
 THIS_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 CONFIG_tmp_script_file_path="${THIS_SCRIPT_DIR}/._script_cont"
